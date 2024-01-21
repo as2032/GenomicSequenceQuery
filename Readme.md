@@ -16,7 +16,7 @@ This program consists of two main executables, buildsa and querysa.
 * querysa: The code for querysa resides in src/bin/main2.rs.
 
 To build these executables, use the following commands:
-'''
+```
 cargo build --bin buildsa --release
 cargo build --bin querysa --release
-'''
+```
