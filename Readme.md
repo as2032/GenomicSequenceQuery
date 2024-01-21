@@ -1,4 +1,4 @@
-# Genomic Sequnce Query
+# Genomic Sequence Query
 
 ## Introduction
 This program builds suffix arrays and quieries them using naive and accelerated binary search
