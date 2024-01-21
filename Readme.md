@@ -40,7 +40,7 @@ cargo build --bin querysa --release
 5. output - the name to use for the resulting output
 ```
 ./querysa output.bin queries.fasta naive searchoutput.txt
-'''
+```
 #### Output
 The output text file contains the results of the query in the following format
 ```
