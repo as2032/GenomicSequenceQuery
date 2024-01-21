@@ -35,7 +35,7 @@ cargo build --bin querysa --release
 #### Arguments and Example Use
 1. index - the path to the binary file containing your serialized suffix array (as written by buildsa above)
 2. queries - the path to an input file in FASTA format containing a set of records.
-   An example of a queries file can be found in the queries folder
+   An example of a queries file can be found in ```input_files/query_files``` directory
 4. query mode - this argument should be one of two strings; either naive or simpaccel. If the string is naive queries will be performed using the naive binary search algorithm. If the string is simpaccel queries will be performed using an accelerated binary search algorithm
 5. output - the name to use for the resulting output
 ```
